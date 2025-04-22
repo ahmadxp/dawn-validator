@@ -1,0 +1,12 @@
+[
+  {
+    "appid": "your_appid1",
+    "token": "your_bearer_token1",
+    "proxy": false
+  },
+  {
+    "appid": "your_appid2",
+    "token": "your_bearer_token2",
+    "proxy": true
+  }
+]
