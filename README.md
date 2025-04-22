@@ -59,13 +59,11 @@ Known about response this bot
 ```
 [user@email.com] Something wrong! Error: 502 Bad Gateway
 ```
-- Error Fetch initial data
-Relax, just error when trying to fetch initial data (get first response). But this error can be showing when appid/token is failed.
+- **Error Fetch initial data**. Relax, just error when trying to fetch initial data (get first response). But this error can be showing when appid/token is failed.
 ```
 [ERROR] Failed to fetch initial data (appid: xxxxxxx), retrying in 15 seconds...
 ```
-- Proxy failed
-Same error fetch initial data, because the proxy is failed / invalid proxy auth / problem on proxy.
+- **Proxy failed.** Same error fetch initial data, because the proxy is failed / invalid proxy auth / problem on proxy.
 ```
 [ERROR] Failed to fetch initial data (appid: xxxxxxx), retrying in 15 seconds...
 ```
@@ -75,3 +73,9 @@ Same error fetch initial data, because the proxy is failed / invalid proxy auth 
 ```
 ## DYOR
 This bot is designed solely for educational and automation purposes. Use it at your own risk. Author is not responsible for any account bans or restrictions caused by the use of this script.
+
+---
+
+## Keep it active
+Support me for make another automation bot next time 😊
+- SOL `BPJSqxyf52FtdoVt163vZFDWYheJEryee4CdWWsrnJMv`
