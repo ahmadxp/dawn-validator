@@ -11,6 +11,7 @@ Download and install **Dawn Validator**
 - Keep alive automation
 - Multiple account
 - Proxy support
+- 1 Account = 1 Proxy
 - Log minimalist
 
 ## Requirements
@@ -22,8 +23,8 @@ Download and install **Dawn Validator**
 ## Usage
 1. Clone Git repository `https://github.com/ahmadxp/dawn-validator`
 2. Open folder `cd dawn-validator`
-2. Install requirements `pip install -r requirements.txt`
-3. Setting `config.json`:
+3. Install requirements `pip install -r requirements.txt`
+4. Setting `config.json`:
 if you're want to using proxy set to `true`, `false` if not using proxy
 ```json
 [
@@ -39,7 +40,7 @@ if you're want to using proxy set to `true`, `false` if not using proxy
   }
 ]
 ```
-4. Set Proxy (Optional)
+5. Set Proxy (Optional)
 >make sure set config to `true` if you want to using proxy!
 ```json
 [
@@ -55,7 +56,7 @@ Known about response this bot
 [user@email.com] KEEPALIVE: Keep alive recorded !!
 [user@email.com] Total Points: XXXXX.X
 ```
-- Keepalive error / no response
+- **Keepalive error / no response**. Ignore it, no problem
 ```
 [user@email.com] Something wrong! Error: 502 Bad Gateway
 ```
@@ -77,5 +78,5 @@ This bot is designed solely for educational and automation purposes. Use it at y
 ---
 
 ## Keep it active
-Support me for make another automation bot next time 😊
+Support me if you like this script😊
 - SOL `BPJSqxyf52FtdoVt163vZFDWYheJEryee4CdWWsrnJMv`
